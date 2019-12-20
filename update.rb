@@ -39,7 +39,7 @@ while data['page']['current_page'].to_i != data['page']['total_pages'].to_i + 1
                     rent: child['room']['rent'].delete(',').to_i,
                     url: child['room']['url'].to_s,
                     image_url: child['room']['image_url'].to_s,
-                    new: !!child['room']['new'],
+                    new: true,
                     features: child['room']['features'].to_s,
                     bedroom: child['bedroom'].to_s,
                     bath: child['bath'].to_s,
@@ -48,9 +48,10 @@ while data['page']['current_page'].to_i != data['page']['total_pages'].to_i + 1
             puts "done."
         else
             puts "looks like I already have this one."
+            apartments.where{property_id < child['id'].to_i}.update(:new => false)
         end
     end
-    
+
     api_url = "https://apts.jp/api/properties.json?rent_range[max]=150000&bedroom_range[min]=0&rent_range[min]=" + "&page=" + (data['page']['current_page'] + 1).to_s
     response = openthis(api_url)
     data = JSON.parse(response)
