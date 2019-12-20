@@ -18,7 +18,6 @@ jobs:
       - run: sudo apt install libsqlite3-dev
       - run: gem install bigdecimal sequel sqlite3
       - run: ls -lart
-      - run: rm apartments.db
       - run: ruby update.rb
       - name: Upload Apartment data
         uses: actions/upload-artifact@v1.0.0
