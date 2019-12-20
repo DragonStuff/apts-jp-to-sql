@@ -14,5 +14,5 @@ jobs:
         with:
           ruby-version: '2.x'
       - run: |
-          gem install bigdecimal sequel ruby hello.rb
+          gem install bigdecimal sequel
           ruby createdb.rb
