@@ -49,9 +49,9 @@ while data['page']['current_page'].to_i != data['page']['total_pages'].to_i + 1
         else
             puts "looks like I already have this one."
             if ENV["REVERSE"]
-                apartments.where(property_id == child['id'].to_i).update(:new => true)
+                apartments.where(:property_id == child['id'].to_i).update(:new => true)
             else
-                apartments.where(property_id == child['id'].to_i).update(:new => false)
+                apartments.where(:property_id == child['id'].to_i).update(:new => false)
             end
         end
     end
@@ -62,7 +62,7 @@ while data['page']['current_page'].to_i != data['page']['total_pages'].to_i + 1
 end
 
 puts "I expected " + data['page']['total_count'].to_s + " and the last one I looked at was " + x.to_s
-if data['page']['total_count'].to_i == x
+if data['page']['total_count'].to_i == x && !ENV["REVERSE"]
     puts "Something is off..."
 else
     puts "Everything seems to be in order."
