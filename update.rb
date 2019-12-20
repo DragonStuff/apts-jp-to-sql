@@ -23,7 +23,7 @@ x = 0
 while data['page']['current_page'].to_i != data['page']['total_pages'].to_i + 1
     data['properties'].each do |child|
         print "Looking at property with ID " + child['id'].to_s + "... "
-        if !apartments.where(property_id: child['property_id'].to_i)
+        if !apartments.where(property_id: child['id'].to_i)
                 x = x + 1
                 apartments.insert(
                     property_id: child['id'].to_i,
@@ -48,17 +48,19 @@ while data['page']['current_page'].to_i != data['page']['total_pages'].to_i + 1
             puts "done."
         else
             puts "looks like I already have this one."
-            if ENV["REVERSE"]
-                apartments.where(:property_id == child['property_id'].to_i).update(:new => true)
-            else
-                apartments.where(:property_id == child['property_id'].to_i).update(:new => false)
-            end
+            apartments.where(Sequel[:property_id] == child['id'].to_i).update(:new => false)
         end
     end
 
     api_url = "https://apts.jp/api/properties.json?rent_range[max]=150000&bedroom_range[min]=0&rent_range[min]=" + "&page=" + (data['page']['current_page'] + 1).to_s
     response = openthis(api_url)
     data = JSON.parse(response)
+end
+
+if ENV["REVERSE"]
+    print "REVERSING... "
+    apartments.update(:new => true)
+    puts "done."
 end
 
 puts "I expected " + data['page']['total_count'].to_s + " and the last one I looked at was " + x.to_s
