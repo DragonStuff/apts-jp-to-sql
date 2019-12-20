@@ -27,7 +27,6 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v2.5.0
         with:
           commit_message: Pushing new apartment db automatically.
-          branch: ${{ github.head_ref }}
-          file_pattern: apartments.db
+          branch: ${{ github.ref }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
