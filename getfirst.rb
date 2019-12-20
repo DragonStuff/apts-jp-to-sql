@@ -1,7 +1,7 @@
 require 'sequel'
 
-DB = Sequel.connect('sqlite://apartments.db') # requires sqlite3
+DB = Sequel.connect('sqlite://apartments.db')
 
-apartments = DB[:apartments].where(rent: 0..110000, city: "Shibuya-ku") # Read a dataset
+apartments = DB[:apartments].where(rent: 0..130000, new: true)
 
-puts apartments.first
+apartments.each{|r| p r[:property_id]}

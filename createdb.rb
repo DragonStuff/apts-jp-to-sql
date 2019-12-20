@@ -4,7 +4,7 @@ require 'net/http'
 require 'uri'
 require 'bigdecimal'
 
-DB = Sequel.connect('sqlite://apartments.db') # requires sqlite3
+DB = Sequel.connect('sqlite://apartments.db')
 
 DB.create_table :apartments do
   primary_key :id

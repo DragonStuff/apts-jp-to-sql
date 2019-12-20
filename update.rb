@@ -4,9 +4,9 @@ require 'net/http'
 require 'uri'
 require 'bigdecimal'
 
-DB = Sequel.connect('sqlite://apartments.db') # requires sqlite3
+DB = Sequel.connect('sqlite://apartments.db')
 
-apartments = DB[:apartments] # Create a dataset
+apartments = DB[:apartments]
 
 def openthis(url)
     Net::HTTP.get(URI.parse(url))
@@ -48,7 +48,7 @@ while data['page']['current_page'].to_i != data['page']['total_pages'].to_i + 1
             puts "done."
         else
             puts "looks like I already have this one."
-            apartments.where{property_id < child['id'].to_i}.update(:new => false)
+            apartments.where{property_id == child['id'].to_i}.update(:new => false)
         end
     end
 
@@ -59,9 +59,9 @@ end
 
 puts "I expected " + data['page']['total_count'].to_s + " and the last one I looked at was " + x.to_s
 if data['page']['total_count'].to_i == x
-    puts "Everything seems to be in order."
-else
     puts "Something is off..."
+else
+    puts "Everything seems to be in order."
 end
 
 puts "Whoo! Finished processing properties."
