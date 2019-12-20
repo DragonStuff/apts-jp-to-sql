@@ -48,7 +48,8 @@ while data['page']['current_page'].to_i != data['page']['total_pages'].to_i + 1
             puts "done."
         else
             puts "looks like I already have this one."
-            apartments.where(Sequel[:property_id] == child['id'].to_i).update(:new => false)
+            apartments.where(:property_id => child['id'].to_i).update(:new => false)
+            puts apartments.where(:property_id => child['id'].to_i).get(:new)
         end
     end
 
@@ -57,7 +58,7 @@ while data['page']['current_page'].to_i != data['page']['total_pages'].to_i + 1
     data = JSON.parse(response)
 end
 
-if ENV["REVERSE"]
+if ENV["REVERSE"] == true
     print "REVERSING... "
     apartments.update(:new => true)
     puts "done."
