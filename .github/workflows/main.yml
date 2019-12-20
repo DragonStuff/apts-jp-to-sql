@@ -6,13 +6,28 @@ on:
   - cron: "0 2 * * 1-5"
 
 jobs:
-  ruby-tasks:
+  update-database:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout branch.
+        uses: actions/checkout@v2.0.0
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.x'
-      - run: |
-          gem install bigdecimal sequel ruby hello.rb
-          ruby createdb.rb
+      - run: sudo apt install libsqlite3-dev
+      - run: gem install bigdecimal sequel sqlite3
+      - run: ls -lart
+      - run: ruby update.rb
+      - name: Upload Apartment data
+        uses: actions/upload-artifact@v1.0.0
+        with:
+          name: apartments.db
+          path: apartments.db
+      - uses: stefanzweifel/git-auto-commit-action@v2.5.0
+        with:
+          commit_message: Pushing new apartment db automatically.
+          branch: ${{ github.head_ref }}
+          file_pattern: apartments.db
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
