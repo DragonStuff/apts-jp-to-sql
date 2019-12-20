@@ -28,6 +28,5 @@ jobs:
         with:
           commit_message: Pushing new apartment db automatically.
           branch: ${{ github.head_ref }}
-          file_pattern: apartments.db
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
