@@ -15,4 +15,4 @@ jobs:
           ruby-version: '2.x'
       - run: |
           gem install bigdecimal sequel
-          ruby createdb.rb
+          ls
