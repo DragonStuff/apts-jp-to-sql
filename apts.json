@@ -1,0 +1,1245 @@
+{
+  "page": {
+    "current_page": 1,
+    "total_pages": 15,
+    "total_count": 430
+  },
+  "map": {
+    "center": {
+      "lat": 35.65004044,
+      "lng": 139.70520348999997
+    }
+  },
+  "properties": [
+    {
+      "id": 13,
+      "kind": "apartment",
+      "building_name": "Park Cube Sasazuka",
+      "prefecture": "Tokyo",
+      "city": "Shibuya-ku",
+      "address1": "Sasazuka",
+      "address2": "2-4-3",
+      "lat": 35.6754802,
+      "lng": 139.6699143,
+      "building_station": {
+        "station": {
+          "id": 557,
+          "name": "Sasazuka",
+          "latitude": "35.6737",
+          "longitude": "139.6673",
+          "created_at": "2018-03-08T10:30:19.000+09:00",
+          "updated_at": "2018-03-08T10:30:19.000+09:00"
+        },
+        "distance_in_minute": 4
+      },
+      "room": {
+        "rent": "139,000",
+        "url": "https://apts.jp/properties/1660-park-cube-sasazuka-1505",
+        "unit_number": "1505",
+        "image_url": "/system/property_image/image/19576/sasazuka_apartment_Park_Cube_Sasazuka__3_.jpg",
+        "new": false,
+        "pet_friendly": null,
+        "on_site_parking": true,
+        "features": "Air Conditioning · Parking"
+      },
+      "rooms_size": 1,
+      "bedroom": "S",
+      "bedroom_to": "S",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "30.32",
+      "area_to": "30.32",
+      "area_ft2": "326",
+      "area_to_ft2": "326"
+    },
+    {
+      "id": 42,
+      "kind": "apartment",
+      "building_name": "Hiroo Heights",
+      "prefecture": "Tokyo",
+      "city": "Shibuya-ku",
+      "address1": "Ebisu",
+      "address2": "2-38-12",
+      "lat": 35.6449688,
+      "lng": 139.7220578,
+      "building_station": {
+        "station": {
+          "id": 113,
+          "name": "Hiroo",
+          "latitude": "35.6523",
+          "longitude": "139.7222",
+          "created_at": "2018-03-08T10:29:52.000+09:00",
+          "updated_at": "2018-03-08T10:29:52.000+09:00"
+        },
+        "distance_in_minute": 9
+      },
+      "room": {
+        "rent": "145,000",
+        "url": "https://apts.jp/properties/9598-hiroo-heights-504",
+        "unit_number": "504",
+        "image_url": "/system/property_image/image/104609/hiroo-heights-property.jpg",
+        "new": false,
+        "pet_friendly": true,
+        "on_site_parking": null,
+        "features": "Pet Friendly · Bicycle Storage"
+      },
+      "rooms_size": 4,
+      "bedroom": "S",
+      "bedroom_to": "1",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "31.5",
+      "area_to": "64.8",
+      "area_ft2": "339",
+      "area_to_ft2": "698"
+    },
+    {
+      "id": 54,
+      "kind": "apartment",
+      "building_name": "Giglio Jyugaoka",
+      "prefecture": "Tokyo",
+      "city": "Setagaya-ku",
+      "address1": "Okusawa",
+      "address2": "7-3-9",
+      "lat": 35.6064348,
+      "lng": 139.6654379,
+      "building_station": {
+        "station": {
+          "id": 1190,
+          "name": "Jiyugaoka",
+          "latitude": "35.6076",
+          "longitude": "139.6691",
+          "created_at": "2018-03-08T10:30:59.000+09:00",
+          "updated_at": "2018-03-08T10:30:59.000+09:00"
+        },
+        "distance_in_minute": 5
+      },
+      "room": {
+        "rent": "120,000",
+        "url": "https://apts.jp/properties/12244-giglio-jyugaoka-201",
+        "unit_number": "201",
+        "image_url": "/system/property_image/image/454/06183a.jpg",
+        "new": false,
+        "pet_friendly": false,
+        "on_site_parking": true,
+        "features": "Air Conditioning · Parking · Bicycle Storage"
+      },
+      "rooms_size": 2,
+      "bedroom": "S",
+      "bedroom_to": "S",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "25.03",
+      "area_to": "27.27",
+      "area_ft2": "269",
+      "area_to_ft2": "294"
+    },
+    {
+      "id": 56,
+      "kind": "apartment",
+      "building_name": "Park Axis Shibuya Kamiyamacho",
+      "prefecture": "Tokyo",
+      "city": "Shibuya-ku",
+      "address1": "Kamiyamacho",
+      "address2": "9-4",
+      "lat": 35.6642795,
+      "lng": 139.6946986,
+      "building_station": {
+        "station": {
+          "id": 88,
+          "name": "Shibuya",
+          "latitude": "35.6585",
+          "longitude": "139.7013",
+          "created_at": "2018-03-08T10:29:50.000+09:00",
+          "updated_at": "2018-03-08T10:29:50.000+09:00"
+        },
+        "distance_in_minute": 9
+      },
+      "room": {
+        "rent": "146,000",
+        "url": "https://apts.jp/properties/13849-park-axis-shibuya-kamiyamacho-304",
+        "unit_number": "304",
+        "image_url": "/system/property_image/image/469/07888a.jpg",
+        "new": false,
+        "pet_friendly": true,
+        "on_site_parking": null,
+        "features": "Air Conditioning · Pet Friendly · Bicycle Storage"
+      },
+      "rooms_size": 4,
+      "bedroom": "S",
+      "bedroom_to": "1",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "24.53",
+      "area_to": "40.08",
+      "area_ft2": "264",
+      "area_to_ft2": "431"
+    },
+    {
+      "id": 58,
+      "kind": "apartment",
+      "building_name": "KDX Residence Shirokane II",
+      "prefecture": "Tokyo",
+      "city": "Minato-ku",
+      "address1": "Shirokanedai",
+      "address2": "4-8-7",
+      "lat": 35.6375281,
+      "lng": 139.7246772,
+      "building_station": {
+        "station": {
+          "id": 699,
+          "name": "Shirokanedai",
+          "latitude": "35.6379",
+          "longitude": "139.7261",
+          "created_at": "2018-03-08T10:30:28.000+09:00",
+          "updated_at": "2018-03-08T10:30:28.000+09:00"
+        },
+        "distance_in_minute": 1
+      },
+      "room": {
+        "rent": "143,000",
+        "url": "https://apts.jp/properties/457-kdx-residence-shirokane-ii-1105",
+        "unit_number": "1105",
+        "image_url": "/system/property_image/image/5113/ARTICLE_2004100589_b02.jpg",
+        "new": false,
+        "pet_friendly": null,
+        "on_site_parking": true,
+        "features": "Air Conditioning · Parking · Bicycle Storage"
+      },
+      "rooms_size": 1,
+      "bedroom": "1",
+      "bedroom_to": "1",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "26.95",
+      "area_to": "26.95",
+      "area_ft2": "290",
+      "area_to_ft2": "290"
+    },
+    {
+      "id": 61,
+      "kind": "apartment",
+      "building_name": "Acselis Shibuya Nanpeidai",
+      "prefecture": "Tokyo",
+      "city": "Shibuya-ku",
+      "address1": "Nampeidaicho",
+      "address2": "6-16",
+      "lat": 35.65466,
+      "lng": 139.698162,
+      "building_station": {
+        "station": {
+          "id": 88,
+          "name": "Shibuya",
+          "latitude": "35.6585",
+          "longitude": "139.7013",
+          "created_at": "2018-03-08T10:29:50.000+09:00",
+          "updated_at": "2018-03-08T10:29:50.000+09:00"
+        },
+        "distance_in_minute": 7
+      },
+      "room": {
+        "rent": "144,000",
+        "url": "https://apts.jp/properties/10998-acselis-shibuya-nanpeidai-502",
+        "unit_number": "502",
+        "image_url": "/system/property_image/image/516/07961a.jpg",
+        "new": false,
+        "pet_friendly": true,
+        "on_site_parking": null,
+        "features": "Air Conditioning · Pet Friendly · Bicycle Storage"
+      },
+      "rooms_size": 2,
+      "bedroom": "S",
+      "bedroom_to": "2",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "22.95",
+      "area_to": "51.01",
+      "area_ft2": "247",
+      "area_to_ft2": "549"
+    },
+    {
+      "id": 76,
+      "kind": "apartment",
+      "building_name": "White Front",
+      "prefecture": "Tokyo",
+      "city": "Meguro-ku",
+      "address1": "Yakumo",
+      "address2": "1-5-5",
+      "lat": 35.6176595,
+      "lng": 139.6739046,
+      "building_station": {
+        "station": {
+          "id": 1211,
+          "name": "Toritsudaigaku",
+          "latitude": "35.6178",
+          "longitude": "139.6764",
+          "created_at": "2018-03-08T10:31:00.000+09:00",
+          "updated_at": "2018-03-08T10:31:00.000+09:00"
+        },
+        "distance_in_minute": 3
+      },
+      "room": {
+        "rent": "132,000",
+        "url": "https://apts.jp/properties/15036-white-front-404",
+        "unit_number": "404",
+        "image_url": "/system/property_image/image/618/05747a.jpg",
+        "new": false,
+        "pet_friendly": false,
+        "on_site_parking": null,
+        "features": "Air Conditioning · Bicycle Storage"
+      },
+      "rooms_size": 1,
+      "bedroom": "S",
+      "bedroom_to": "S",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "32.19",
+      "area_to": "32.19",
+      "area_ft2": "346",
+      "area_to_ft2": "346"
+    },
+    {
+      "id": 81,
+      "kind": "apartment",
+      "building_name": "Comforia Meguro Chojamaru",
+      "prefecture": "Tokyo",
+      "city": "Shinagawa-ku",
+      "address1": "Kamiosaki",
+      "address2": "2-6-25",
+      "lat": 35.6387221,
+      "lng": 139.7149003,
+      "building_station": {
+        "station": {
+          "id": 445,
+          "name": "Meguro",
+          "latitude": "35.634",
+          "longitude": "139.7158",
+          "created_at": "2018-03-08T10:30:12.000+09:00",
+          "updated_at": "2018-03-08T10:30:12.000+09:00"
+        },
+        "distance_in_minute": 7
+      },
+      "room": {
+        "rent": "139,000",
+        "url": "https://apts.jp/properties/7985-comforia-meguro-chojamaru-0213",
+        "unit_number": "0213",
+        "image_url": "/system/property_image/image/90261/comforia-meguro-chojamaru-property.jpg",
+        "new": false,
+        "pet_friendly": true,
+        "on_site_parking": null,
+        "features": "Air Conditioning · Pet Friendly · Bicycle Storage"
+      },
+      "rooms_size": 5,
+      "bedroom": "S",
+      "bedroom_to": "1",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "31.15",
+      "area_to": "47.99",
+      "area_ft2": "335",
+      "area_to_ft2": "517"
+    },
+    {
+      "id": 97,
+      "kind": "apartment",
+      "building_name": "Lafont Progres Minami Azabu",
+      "prefecture": "Tokyo",
+      "city": "Minato-ku",
+      "address1": "Minamiazabu",
+      "address2": "3-21-14",
+      "lat": 35.6477707,
+      "lng": 139.7328705,
+      "building_station": {
+        "station": {
+          "id": 699,
+          "name": "Shirokanedai",
+          "latitude": "35.6379",
+          "longitude": "139.7261",
+          "created_at": "2018-03-08T10:30:28.000+09:00",
+          "updated_at": "2018-03-08T10:30:28.000+09:00"
+        },
+        "distance_in_minute": 7
+      },
+      "room": {
+        "rent": "142,000",
+        "url": "https://apts.jp/properties/15589-lafont-progres-minami-azabu-303",
+        "unit_number": "303",
+        "image_url": "/system/property_image/image/823/ext3.jpg",
+        "new": false,
+        "pet_friendly": true,
+        "on_site_parking": null,
+        "features": "Air Conditioning · Pet Friendly · Bicycle Storage"
+      },
+      "rooms_size": 9,
+      "bedroom": "S",
+      "bedroom_to": "2",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "28.3",
+      "area_to": "84.32",
+      "area_ft2": "305",
+      "area_to_ft2": "908"
+    },
+    {
+      "id": 102,
+      "kind": "apartment",
+      "building_name": "Park Flats Shibuya Daikanyama",
+      "prefecture": "Tokyo",
+      "city": "Shibuya-ku",
+      "address1": "Higashi",
+      "address2": "1-27-2",
+      "lat": 35.654245,
+      "lng": 139.7073505,
+      "building_station": {
+        "station": {
+          "id": 88,
+          "name": "Shibuya",
+          "latitude": "35.6585",
+          "longitude": "139.7013",
+          "created_at": "2018-03-08T10:29:50.000+09:00",
+          "updated_at": "2018-03-08T10:29:50.000+09:00"
+        },
+        "distance_in_minute": 5
+      },
+      "room": {
+        "rent": "133,000",
+        "url": "https://apts.jp/properties/587-park-flats-shibuya-daikanyama-505",
+        "unit_number": "505",
+        "image_url": "/system/property_image/image/6845/parkflatsshibuyadaikanyama_ex2.jpg",
+        "new": false,
+        "pet_friendly": true,
+        "on_site_parking": null,
+        "features": "Pet Friendly · Bicycle Storage"
+      },
+      "rooms_size": 1,
+      "bedroom": "S",
+      "bedroom_to": "S",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "25.43",
+      "area_to": "25.43",
+      "area_ft2": "274",
+      "area_to_ft2": "274"
+    },
+    {
+      "id": 109,
+      "kind": "apartment",
+      "building_name": "SUN Ebisu",
+      "prefecture": "Tokyo",
+      "city": "Shibuya-ku",
+      "address1": "Ebisunishi",
+      "address2": "1-15-8",
+      "lat": 35.6480346,
+      "lng": 139.707434,
+      "building_station": {
+        "station": {
+          "id": 112,
+          "name": "Ebisu",
+          "latitude": "35.6467",
+          "longitude": "139.7101",
+          "created_at": "2018-03-08T10:29:51.000+09:00",
+          "updated_at": "2018-03-08T10:29:51.000+09:00"
+        },
+        "distance_in_minute": 4
+      },
+      "room": {
+        "rent": "130,000",
+        "url": "https://apts.jp/properties/13394-sun-ebisu-206",
+        "unit_number": "206",
+        "image_url": "/system/property_image/image/940/article_2_568_1434866139.jpg",
+        "new": false,
+        "pet_friendly": false,
+        "on_site_parking": null,
+        "features": "Air Conditioning"
+      },
+      "rooms_size": 2,
+      "bedroom": "S",
+      "bedroom_to": "S",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "26.78",
+      "area_to": "26.78",
+      "area_ft2": "288",
+      "area_to_ft2": "288"
+    },
+    {
+      "id": 113,
+      "kind": "apartment",
+      "building_name": "NONA PLACE Shibuya Fujitani",
+      "prefecture": "Tokyo",
+      "city": "Shibuya-ku",
+      "address1": "Tomigaya",
+      "address2": "1-20-1",
+      "lat": 35.6657978,
+      "lng": 139.6915762,
+      "building_station": {
+        "station": {
+          "id": 40,
+          "name": "Yoyogi-koen",
+          "latitude": "35.669",
+          "longitude": "139.6913",
+          "created_at": "2018-03-08T10:29:48.000+09:00",
+          "updated_at": "2018-03-08T10:29:48.000+09:00"
+        },
+        "distance_in_minute": 6
+      },
+      "room": {
+        "rent": "146,000",
+        "url": "https://apts.jp/properties/12982-nona-place-shibuya-fujitani-302",
+        "unit_number": "302",
+        "image_url": "/system/property_image/image/976/03807a.jpg",
+        "new": false,
+        "pet_friendly": false,
+        "on_site_parking": null,
+        "features": "Air Conditioning"
+      },
+      "rooms_size": 1,
+      "bedroom": "1",
+      "bedroom_to": "1",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "30.25",
+      "area_to": "30.25",
+      "area_ft2": "326",
+      "area_to_ft2": "326"
+    },
+    {
+      "id": 125,
+      "kind": "apartment",
+      "building_name": "Stylio Ikejiri Ohashi",
+      "prefecture": "Tokyo",
+      "city": "Meguro-ku",
+      "address1": "Ohashi",
+      "address2": "2-16-26",
+      "lat": 35.6523891,
+      "lng": 139.6873552,
+      "building_station": {
+        "station": {
+          "id": 1135,
+          "name": "Ikejiri-ohashi",
+          "latitude": "35.6506",
+          "longitude": "139.6843",
+          "created_at": "2018-03-08T10:30:56.000+09:00",
+          "updated_at": "2018-03-08T10:30:56.000+09:00"
+        },
+        "distance_in_minute": 4
+      },
+      "room": {
+        "rent": "132,000",
+        "url": "https://apts.jp/properties/14305-stylio-ikejiri-ohashi-902",
+        "unit_number": "902",
+        "image_url": "/system/property_image/image/1128/TLI_N01_LLB1502058.jpg",
+        "new": false,
+        "pet_friendly": false,
+        "on_site_parking": null,
+        "features": "Air Conditioning · Bicycle Storage"
+      },
+      "rooms_size": 1,
+      "bedroom": "S",
+      "bedroom_to": "S",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "28.6",
+      "area_to": "28.6",
+      "area_ft2": "308",
+      "area_to_ft2": "308"
+    },
+    {
+      "id": 126,
+      "kind": "apartment",
+      "building_name": "Solid Ohashi",
+      "prefecture": "Tokyo",
+      "city": "Meguro-ku",
+      "address1": "Ohashi",
+      "address2": "2-16-20",
+      "lat": 35.652578,
+      "lng": 139.6882301,
+      "building_station": {
+        "station": {
+          "id": 1135,
+          "name": "Ikejiri-ohashi",
+          "latitude": "35.6506",
+          "longitude": "139.6843",
+          "created_at": "2018-03-08T10:30:56.000+09:00",
+          "updated_at": "2018-03-08T10:30:56.000+09:00"
+        },
+        "distance_in_minute": 5
+      },
+      "room": {
+        "rent": "129,000",
+        "url": "https://apts.jp/properties/14307-solid-ohashi-0202",
+        "unit_number": "0202",
+        "image_url": "/system/property_image/image/1138/TLI_G_LLB1412074.jpg",
+        "new": false,
+        "pet_friendly": false,
+        "on_site_parking": null,
+        "features": "Air Conditioning"
+      },
+      "rooms_size": 2,
+      "bedroom": "S",
+      "bedroom_to": "S",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "30.59",
+      "area_to": "30.59",
+      "area_ft2": "329",
+      "area_to_ft2": "329"
+    },
+    {
+      "id": 129,
+      "kind": "apartment",
+      "building_name": "Gran Heights Ikejiri",
+      "prefecture": "Tokyo",
+      "city": "Setagaya-ku",
+      "address1": "Ikejiri",
+      "address2": "4-11-1",
+      "lat": 35.6551746,
+      "lng": 139.6791864,
+      "building_station": {
+        "station": {
+          "id": 589,
+          "name": "Komaba-todaimae",
+          "latitude": "35.6587",
+          "longitude": "139.6845",
+          "created_at": "2018-03-08T10:30:21.000+09:00",
+          "updated_at": "2018-03-08T10:30:21.000+09:00"
+        },
+        "distance_in_minute": 8
+      },
+      "room": {
+        "rent": "139,000",
+        "url": "https://apts.jp/properties/14333-gran-heights-ikejiri-0514",
+        "unit_number": "0514",
+        "image_url": "/system/property_image/image/1161/07000129_006.jpg",
+        "new": false,
+        "pet_friendly": false,
+        "on_site_parking": null,
+        "features": "Air Conditioning · Bicycle Storage"
+      },
+      "rooms_size": 1,
+      "bedroom": "S",
+      "bedroom_to": "S",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "39.22",
+      "area_to": "39.22",
+      "area_ft2": "422",
+      "area_to_ft2": "422"
+    },
+    {
+      "id": 179,
+      "kind": "apartment",
+      "building_name": "Castalia Yutenji",
+      "prefecture": "Tokyo",
+      "city": "Meguro-ku",
+      "address1": "Yutenji",
+      "address2": "2-14-21",
+      "lat": 35.6371299,
+      "lng": 139.6911553,
+      "building_station": {
+        "station": {
+          "id": 1209,
+          "name": "Yutenji",
+          "latitude": "35.6377",
+          "longitude": "139.6912",
+          "created_at": "2018-03-08T10:31:00.000+09:00",
+          "updated_at": "2018-03-08T10:31:00.000+09:00"
+        },
+        "distance_in_minute": 1
+      },
+      "room": {
+        "rent": "146,000",
+        "url": "https://apts.jp/properties/14880-castalia-yutenji-207",
+        "unit_number": "207",
+        "image_url": "/system/property_image/image/1835/0000000001100398481620000005453_10.jpg",
+        "new": false,
+        "pet_friendly": false,
+        "on_site_parking": null,
+        "features": "Air Conditioning"
+      },
+      "rooms_size": 2,
+      "bedroom": "S",
+      "bedroom_to": "S",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "30.42",
+      "area_to": "33.12",
+      "area_ft2": "327",
+      "area_to_ft2": "357"
+    },
+    {
+      "id": 266,
+      "kind": "apartment",
+      "building_name": "Mirum Minami Aoyama ",
+      "prefecture": "Tokyo",
+      "city": "Minato-ku",
+      "address1": "Minamiaoyama",
+      "address2": "4-26-16",
+      "lat": 35.6622805,
+      "lng": 139.7180938,
+      "building_station": {
+        "station": {
+          "id": 42,
+          "name": "Omotesando",
+          "latitude": "35.6652",
+          "longitude": "139.7123",
+          "created_at": "2018-03-08T10:29:48.000+09:00",
+          "updated_at": "2018-03-08T10:29:48.000+09:00"
+        },
+        "distance_in_minute": 7
+      },
+      "room": {
+        "rent": "149,000",
+        "url": "https://apts.jp/properties/2592-mirum-minami-aoyama-208",
+        "unit_number": "208",
+        "image_url": "/system/property_image/image/31597/ARTICLE_2004050101_b02.jpg",
+        "new": false,
+        "pet_friendly": false,
+        "on_site_parking": true,
+        "features": "Air Conditioning · Parking · Bicycle Storage"
+      },
+      "rooms_size": 3,
+      "bedroom": "S",
+      "bedroom_to": "S",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "30.38",
+      "area_to": "32.26",
+      "area_ft2": "327",
+      "area_to_ft2": "347"
+    },
+    {
+      "id": 303,
+      "kind": "apartment",
+      "building_name": "KDX Residence Hanzomon",
+      "prefecture": "Tokyo",
+      "city": "Chiyoda-ku",
+      "address1": "Kojimachi",
+      "address2": "2-12-1",
+      "lat": 35.6848868,
+      "lng": 139.7412936,
+      "building_station": {
+        "station": {
+          "id": 104,
+          "name": "Hanzomon",
+          "latitude": "35.6857",
+          "longitude": "139.7416",
+          "created_at": "2018-03-08T10:29:51.000+09:00",
+          "updated_at": "2018-03-08T10:29:51.000+09:00"
+        },
+        "distance_in_minute": 1
+      },
+      "room": {
+        "rent": "150,000",
+        "url": "https://apts.jp/properties/1128-kdx-residence-hanzomon-609",
+        "unit_number": "609",
+        "image_url": "/system/property_image/image/13691/ARTICLE_2004010347_b01.jpg",
+        "new": false,
+        "pet_friendly": true,
+        "on_site_parking": true,
+        "features": "Air Conditioning · Pet Friendly · Parking · Bicycle Storage"
+      },
+      "rooms_size": 1,
+      "bedroom": "S",
+      "bedroom_to": "S",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "31.07",
+      "area_to": "31.07",
+      "area_ft2": "334",
+      "area_to_ft2": "334"
+    },
+    {
+      "id": 323,
+      "kind": "apartment",
+      "building_name": "KDX Residence Azabu East",
+      "prefecture": "Tokyo",
+      "city": "Minato-ku",
+      "address1": "Higashiazabu",
+      "address2": "1-25-2",
+      "lat": 35.6559404,
+      "lng": 139.7445527,
+      "building_station": {
+        "station": {
+          "id": 816,
+          "name": "Akabanebashi",
+          "latitude": "35.655",
+          "longitude": "139.7436",
+          "created_at": "2018-03-08T10:30:35.000+09:00",
+          "updated_at": "2018-03-08T10:30:35.000+09:00"
+        },
+        "distance_in_minute": 3
+      },
+      "room": {
+        "rent": "112,000",
+        "url": "https://apts.jp/properties/12972-kdx-residence-azabu-east-408",
+        "unit_number": "408",
+        "image_url": "/system/property_image/image/3609/ARTICLE_2007070095_a14.jpg",
+        "new": false,
+        "pet_friendly": false,
+        "on_site_parking": null,
+        "features": "Air Conditioning · Bicycle Storage"
+      },
+      "rooms_size": 2,
+      "bedroom": "S",
+      "bedroom_to": "S",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "21.01",
+      "area_to": "21.01",
+      "area_ft2": "226",
+      "area_to_ft2": "226"
+    },
+    {
+      "id": 324,
+      "kind": "apartment",
+      "building_name": "HF Minami-Azabu Residence",
+      "prefecture": "Tokyo",
+      "city": "Minato-ku",
+      "address1": "Minamiazabu",
+      "address2": "2-13-20",
+      "lat": 35.6468926,
+      "lng": 139.7347912,
+      "building_station": {
+        "station": {
+          "id": 700,
+          "name": "Shirokane-takanawa",
+          "latitude": "35.6429",
+          "longitude": "139.7341",
+          "created_at": "2018-03-08T10:30:28.000+09:00",
+          "updated_at": "2018-03-08T10:30:28.000+09:00"
+        },
+        "distance_in_minute": 7
+      },
+      "room": {
+        "rent": "108,000",
+        "url": "https://apts.jp/properties/7445-hf-minami-azabu-residence-405",
+        "unit_number": "405",
+        "image_url": "/system/property_image/image/85847/hf-minami-azabu-residence-property.jpg",
+        "new": false,
+        "pet_friendly": false,
+        "on_site_parking": null,
+        "features": "Air Conditioning · Bicycle Storage"
+      },
+      "rooms_size": 2,
+      "bedroom": "S",
+      "bedroom_to": "1",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "22.0",
+      "area_to": "22.28",
+      "area_ft2": "237",
+      "area_to_ft2": "240"
+    },
+    {
+      "id": 330,
+      "kind": "apartment",
+      "building_name": "KDX Residence Shinagawa Seaside",
+      "prefecture": "Tokyo",
+      "city": "Shinagawa-ku",
+      "address1": "Higashishinagawa",
+      "address2": "3-6-7",
+      "lat": 35.6155743,
+      "lng": 139.74752,
+      "building_station": {
+        "station": {
+          "id": 491,
+          "name": "Shin-banba",
+          "latitude": "35.6176",
+          "longitude": "139.7414",
+          "created_at": "2018-03-08T10:30:15.000+09:00",
+          "updated_at": "2018-03-08T10:30:15.000+09:00"
+        },
+        "distance_in_minute": 9
+      },
+      "room": {
+        "rent": "114,000",
+        "url": "https://apts.jp/properties/2644-kdx-residence-shinagawa-seaside-313",
+        "unit_number": "313",
+        "image_url": "/system/property_image/image/32245/ARTICLE_2013120934_a01.jpg",
+        "new": false,
+        "pet_friendly": false,
+        "on_site_parking": true,
+        "features": "Air Conditioning · Parking · Bicycle Storage"
+      },
+      "rooms_size": 2,
+      "bedroom": "S",
+      "bedroom_to": "1",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "24.66",
+      "area_to": "36.36",
+      "area_ft2": "265",
+      "area_to_ft2": "391"
+    },
+    {
+      "id": 332,
+      "kind": "apartment",
+      "building_name": "KDX Residence Togoshi",
+      "prefecture": "Tokyo",
+      "city": "Shinagawa-ku",
+      "address1": "Togoshi",
+      "address2": "5-1-1",
+      "lat": 35.6112782,
+      "lng": 139.7155594,
+      "building_station": {
+        "station": {
+          "id": 4,
+          "name": "Togoshi",
+          "latitude": "35.6147",
+          "longitude": "139.7164",
+          "created_at": "2018-03-08T10:29:46.000+09:00",
+          "updated_at": "2018-03-08T10:29:46.000+09:00"
+        },
+        "distance_in_minute": 4
+      },
+      "room": {
+        "rent": "139,000",
+        "url": "https://apts.jp/properties/1582-kdx-residence-togoshi-615",
+        "unit_number": "615",
+        "image_url": "/system/property_image/image/18365/ARTICLE_2014010833_a01.jpg",
+        "new": false,
+        "pet_friendly": null,
+        "on_site_parking": true,
+        "features": "Air Conditioning · Washer & Dryer · Parking"
+      },
+      "rooms_size": 1,
+      "bedroom": "S",
+      "bedroom_to": "S",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "30.99",
+      "area_to": "30.99",
+      "area_ft2": "334",
+      "area_to_ft2": "334"
+    },
+    {
+      "id": 444,
+      "kind": "apartment",
+      "building_name": "Pianeta Azabujuban",
+      "prefecture": "Tokyo",
+      "city": "Minato-ku",
+      "address1": "Roppongi",
+      "address2": "5-12-21",
+      "lat": 35.6575788,
+      "lng": 139.7362006,
+      "building_station": {
+        "station": {
+          "id": 724,
+          "name": "Azabu-juban",
+          "latitude": "35.6547",
+          "longitude": "139.7371",
+          "created_at": "2018-03-08T10:30:29.000+09:00",
+          "updated_at": "2018-03-08T10:30:29.000+09:00"
+        },
+        "distance_in_minute": 2
+      },
+      "room": {
+        "rent": "146,000",
+        "url": "https://apts.jp/properties/553-pianeta-azabujuban-901",
+        "unit_number": "901",
+        "image_url": "/system/property_image/image/6101/ARTICLE_2017040196_b01.jpg",
+        "new": false,
+        "pet_friendly": null,
+        "on_site_parking": null,
+        "features": "Air Conditioning"
+      },
+      "rooms_size": 1,
+      "bedroom": "1",
+      "bedroom_to": "1",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "25.54",
+      "area_to": "25.54",
+      "area_ft2": "275",
+      "area_to_ft2": "275"
+    },
+    {
+      "id": 576,
+      "kind": "apartment",
+      "building_name": "Residia Hiroo Ⅱ",
+      "prefecture": "Tokyo",
+      "city": "Shibuya-ku",
+      "address1": "Hiro",
+      "address2": "5-19-17",
+      "lat": 35.6487016,
+      "lng": 139.7199829,
+      "building_station": {
+        "station": {
+          "id": 113,
+          "name": "Hiroo",
+          "latitude": "35.6523",
+          "longitude": "139.7222",
+          "created_at": "2018-03-08T10:29:52.000+09:00",
+          "updated_at": "2018-03-08T10:29:52.000+09:00"
+        },
+        "distance_in_minute": 7
+      },
+      "room": {
+        "rent": "111,000",
+        "url": "https://apts.jp/properties/7021-residia-hiroo-0707",
+        "unit_number": "0707",
+        "image_url": "/system/property_image/image/82045/residia-hiroo-room.jpg",
+        "new": false,
+        "pet_friendly": true,
+        "on_site_parking": true,
+        "features": "Air Conditioning · Pet Friendly · Parking"
+      },
+      "rooms_size": 1,
+      "bedroom": "S",
+      "bedroom_to": "S",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "20.4",
+      "area_to": "20.4",
+      "area_ft2": "220",
+      "area_to_ft2": "220"
+    },
+    {
+      "id": 635,
+      "kind": "apartment",
+      "building_name": "KDX Residence Shimoma",
+      "prefecture": "Tokyo",
+      "city": "Setagaya-ku",
+      "address1": "Shimoma",
+      "address2": "1-21-8",
+      "lat": 35.6388111,
+      "lng": 139.682573,
+      "building_station": {
+        "station": {
+          "id": 1209,
+          "name": "Yutenji",
+          "latitude": "35.6377",
+          "longitude": "139.6912",
+          "created_at": "2018-03-08T10:31:00.000+09:00",
+          "updated_at": "2018-03-08T10:31:00.000+09:00"
+        },
+        "distance_in_minute": 10
+      },
+      "room": {
+        "rent": "112,000",
+        "url": "https://apts.jp/properties/635-kdx-residence-shimoma-203",
+        "unit_number": "203",
+        "image_url": "/system/property_image/image/7410/ARTICLE_2008021036_a01.jpg",
+        "new": false,
+        "pet_friendly": true,
+        "on_site_parking": null,
+        "features": "Air Conditioning · Pet Friendly"
+      },
+      "rooms_size": 1,
+      "bedroom": "S",
+      "bedroom_to": "S",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "25.34",
+      "area_to": "25.34",
+      "area_ft2": "273",
+      "area_to_ft2": "273"
+    },
+    {
+      "id": 673,
+      "kind": "apartment",
+      "building_name": "Comforia Shibuya West",
+      "prefecture": "Tokyo",
+      "city": "Meguro-ku",
+      "address1": "Aobadai",
+      "address2": "4-4-5",
+      "lat": 35.6544029,
+      "lng": 139.6928074,
+      "building_station": {
+        "station": {
+          "id": 88,
+          "name": "Shibuya",
+          "latitude": "35.6585",
+          "longitude": "139.7013",
+          "created_at": "2018-03-08T10:29:50.000+09:00",
+          "updated_at": "2018-03-08T10:29:50.000+09:00"
+        },
+        "distance_in_minute": 9
+      },
+      "room": {
+        "rent": "137,000",
+        "url": "https://apts.jp/properties/14324-comforia-shibuya-west-0304",
+        "unit_number": "0304",
+        "image_url": "/system/property_image/image/8170/08013631_007.jpg",
+        "new": false,
+        "pet_friendly": true,
+        "on_site_parking": null,
+        "features": "Air Conditioning · Pet Friendly"
+      },
+      "rooms_size": 6,
+      "bedroom": "S",
+      "bedroom_to": "1",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "25.01",
+      "area_to": "56.07",
+      "area_ft2": "269",
+      "area_to_ft2": "604"
+    },
+    {
+      "id": 675,
+      "kind": "apartment",
+      "building_name": "Comforia Kitasando",
+      "prefecture": "Tokyo",
+      "city": "Shibuya-ku",
+      "address1": "Sendagaya",
+      "address2": "4-5-10",
+      "lat": 35.6800057,
+      "lng": 139.7040749,
+      "building_station": {
+        "station": {
+          "id": 87,
+          "name": "Kitasando",
+          "latitude": "35.6782",
+          "longitude": "139.7057",
+          "created_at": "2018-03-08T10:29:50.000+09:00",
+          "updated_at": "2018-03-08T10:29:50.000+09:00"
+        },
+        "distance_in_minute": 2
+      },
+      "room": {
+        "rent": "150,000",
+        "url": "https://apts.jp/properties/16944-comforia-kitasando-0304",
+        "unit_number": "0304",
+        "image_url": "/system/property_image/image/8202/07002002_007.jpg",
+        "new": true,
+        "pet_friendly": true,
+        "on_site_parking": null,
+        "features": "Air Conditioning · Pet Friendly · Bicycle Storage"
+      },
+      "rooms_size": 4,
+      "bedroom": "S",
+      "bedroom_to": "S",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "30.39",
+      "area_to": "45.73",
+      "area_ft2": "327",
+      "area_to_ft2": "492"
+    },
+    {
+      "id": 690,
+      "kind": "apartment",
+      "building_name": "Nona Place Shibuya Kamiyamacho",
+      "prefecture": "Tokyo",
+      "city": "Shibuya-ku",
+      "address1": "Kamiyamacho",
+      "address2": "28-18",
+      "lat": 35.664021,
+      "lng": 139.6886408,
+      "building_station": {
+        "station": {
+          "id": 40,
+          "name": "Yoyogi-koen",
+          "latitude": "35.669",
+          "longitude": "139.6913",
+          "created_at": "2018-03-08T10:29:48.000+09:00",
+          "updated_at": "2018-03-08T10:29:48.000+09:00"
+        },
+        "distance_in_minute": 9
+      },
+      "room": {
+        "rent": "134,000",
+        "url": "https://apts.jp/properties/12628-nona-place-shibuya-kamiyamacho-211",
+        "unit_number": "211",
+        "image_url": "/system/property_image/image/8431/03808a.jpg",
+        "new": false,
+        "pet_friendly": false,
+        "on_site_parking": null,
+        "features": "Air Conditioning"
+      },
+      "rooms_size": 3,
+      "bedroom": "S",
+      "bedroom_to": "S",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "29.15",
+      "area_to": "29.15",
+      "area_ft2": "314",
+      "area_to_ft2": "314"
+    },
+    {
+      "id": 691,
+      "kind": "apartment",
+      "building_name": "Ensoleille Yoyogiuehara",
+      "prefecture": "Tokyo",
+      "city": "Shibuya-ku",
+      "address1": "Nishihara",
+      "address2": "2-46-8",
+      "lat": 35.672678,
+      "lng": 139.678372,
+      "building_station": {
+        "station": {
+          "id": 39,
+          "name": "Yoyogi-uehara",
+          "latitude": "35.6691",
+          "longitude": "139.6797",
+          "created_at": "2018-03-08T10:29:47.000+09:00",
+          "updated_at": "2018-03-08T10:29:47.000+09:00"
+        },
+        "distance_in_minute": 6
+      },
+      "room": {
+        "rent": "117,000",
+        "url": "https://apts.jp/properties/13968-ensoleille-yoyogiuehara-107",
+        "unit_number": "107",
+        "image_url": "/system/property_image/image/8433/07237a.jpg",
+        "new": false,
+        "pet_friendly": false,
+        "on_site_parking": null,
+        "features": "Air Conditioning · Bicycle Storage"
+      },
+      "rooms_size": 1,
+      "bedroom": "S",
+      "bedroom_to": "S",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "25.15",
+      "area_to": "25.15",
+      "area_ft2": "271",
+      "area_to_ft2": "271"
+    },
+    {
+      "id": 732,
+      "kind": "apartment",
+      "building_name": "Park Axis Shibuya Sakuragaoka West",
+      "prefecture": "Tokyo",
+      "city": "Shibuya-ku",
+      "address1": "Sakuragaokacho",
+      "address2": "8-16",
+      "lat": 35.6553086,
+      "lng": 139.7027315,
+      "building_station": {
+        "station": {
+          "id": 88,
+          "name": "Shibuya",
+          "latitude": "35.6585",
+          "longitude": "139.7013",
+          "created_at": "2018-03-08T10:29:50.000+09:00",
+          "updated_at": "2018-03-08T10:29:50.000+09:00"
+        },
+        "distance_in_minute": 6
+      },
+      "room": {
+        "rent": "145,000",
+        "url": "https://apts.jp/properties/11748-park-axis-shibuya-sakuragaoka-west-303",
+        "unit_number": "303",
+        "image_url": "/system/property_image/image/8981/06357a.jpg",
+        "new": false,
+        "pet_friendly": true,
+        "on_site_parking": true,
+        "features": "Air Conditioning · Washer & Dryer · Pet Friendly · Parking · Bicycle Storage"
+      },
+      "rooms_size": 3,
+      "bedroom": "S",
+      "bedroom_to": "1",
+      "bath": 1,
+      "bath_to": 1,
+      "area": "25.5",
+      "area_to": "34.64",
+      "area_ft2": "274",
+      "area_to_ft2": "373"
+    }
+  ]
+}
