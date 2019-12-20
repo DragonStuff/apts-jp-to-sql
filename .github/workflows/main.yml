@@ -13,6 +13,6 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.x'
-      - run: |
-          gem install bigdecimal sequel
-          ls
+      - run: gem install bigdecimal sequel
+      - run: ls -lart
+      - run: ruby createdb.rb
