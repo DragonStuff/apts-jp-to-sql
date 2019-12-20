@@ -48,7 +48,11 @@ while data['page']['current_page'].to_i != data['page']['total_pages'].to_i + 1
             puts "done."
         else
             puts "looks like I already have this one."
-            apartments.where{property_id == child['id'].to_i}.update(:new => false)
+            if ENV["REVERSE"]
+                apartments.where{property_id == child['id'].to_i}.update(:new => true)
+            else
+                apartments.where{property_id == child['id'].to_i}.update(:new => false)
+            end
         end
     end
 
