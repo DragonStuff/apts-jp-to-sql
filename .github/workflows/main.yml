@@ -27,7 +27,7 @@ jobs:
         with:
           assignees: DragonStuff
           filename: found_properties.txt
-          continue-on-error: true
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
       - name: Upload Apartment data
