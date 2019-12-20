@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.x'
-      - run: sudo apt install sqlite3
+      - run: sudo apt install libsqlite3-dev
       - run: gem install bigdecimal sequel sqlite3
       - run: ls -lart
       - run: ruby createdb.rb
