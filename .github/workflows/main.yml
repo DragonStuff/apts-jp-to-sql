@@ -23,7 +23,7 @@ jobs:
           REVERSE: false
       - run: ruby getfirst.rb
       - name: Create an issue
-        uses: JasonEtco/create-an-issue@v2.2.0
+        uses: DragonStuff/create-an-issue@v2.2.0
         with:
           assignees: DragonStuff
           filename: found_properties.txt
