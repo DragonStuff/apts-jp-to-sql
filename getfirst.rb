@@ -30,6 +30,7 @@ if apartments.first
         if response.include? "Conversational Japanese"
             file.puts "🛑 JAPANESE REQUIRED."
         end
+        file.puts r[:features]
     }
 
     file.puts "---"
