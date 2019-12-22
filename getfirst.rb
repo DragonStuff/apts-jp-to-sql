@@ -28,10 +28,11 @@ if apartments.first
         file.puts "---"
         file.puts r[:url]
         if response.include? "Conversational Japanese"
-            file.puts "JAPANESE REQUIRED."
+            file.puts "🛑 JAPANESE REQUIRED."
         end
     }
 
+    file.puts "---"
     file.close
 else
     puts "Nothing new to look at."
