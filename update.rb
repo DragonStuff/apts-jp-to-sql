@@ -62,7 +62,7 @@ while data['page']['current_page'].to_i != data['page']['total_pages'].to_i + 1
     data = JSON.parse(response)
 end
 
-puts "reverse => " ENV["REVERSE"]
+puts "reverse => " + ENV["REVERSE"]
 
 if ENV["REVERSE"] == "true"
     print "REVERSING... "
