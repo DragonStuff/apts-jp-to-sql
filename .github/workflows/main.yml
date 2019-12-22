@@ -20,7 +20,7 @@ jobs:
       - run: ls -lart
       - run: ruby update.rb
         env: 
-          REVERSE: false
+          REVERSE: true
       - run: ruby getfirst.rb
       - name: Create an issue
         uses: DragonStuff/create-an-issue@v2.2.0
@@ -35,7 +35,7 @@ jobs:
         with:
           name: apartments.db
           path: apartments.db
-      - uses: stefanzweifel/git-auto-commit-action@v2.5.0
+      - uses: DragonStuff/git-auto-commit-action@v2.5.0
         with:
           commit_message: Pushing new apartment db automatically.
           branch: ${{ github.ref }}
