@@ -26,7 +26,7 @@ if apartments.first
         response = openthis(r[:url])
 
         file.puts "---"
-        file.puts r[:url]
+        file.puts "- [ ] " + r[:url]
         if response.include? "Conversational Japanese"
             file.puts "🛑 JAPANESE REQUIRED."
         end
