@@ -62,7 +62,9 @@ while data['page']['current_page'].to_i != data['page']['total_pages'].to_i + 1
     data = JSON.parse(response)
 end
 
-if ENV["REVERSE"] == true
+puts "reverse => " ENV["REVERSE"]
+
+if ENV["REVERSE"] == "true"
     print "REVERSING... "
     apartments.update(:new => true)
     puts "done."
