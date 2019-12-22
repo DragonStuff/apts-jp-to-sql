@@ -23,7 +23,7 @@ x = 0
 while data['page']['current_page'].to_i != data['page']['total_pages'].to_i + 1
     data['properties'].each do |child|
         print "Looking at property with ID " + child['id'].to_s + "... "
-        if !apartments.where(property_id: child['id'].to_i)
+        if apartments.where(:property_id => child['id'].to_i).get(:property_id) != child['id'].to_i
                 x = x + 1
                 apartments.insert(
                     property_id: child['id'].to_i,
@@ -47,9 +47,13 @@ while data['page']['current_page'].to_i != data['page']['total_pages'].to_i + 1
                 )
             puts "done."
         else
-            puts "looks like I already have this one."
-            apartments.where(:property_id => child['id'].to_i).update(:new => false)
-            puts apartments.where(:property_id => child['id'].to_i).get(:new)
+            print "looks like I already have this one. "
+            if apartments.where(:property_id => child['id'].to_i).get(:new) != false
+                apartments.where(:property_id => child['id'].to_i).update(:new => false)
+                puts "This property is no longer new. new => " + apartments.where(:property_id => child['id'].to_i).get(:new).to_s
+            else
+                puts "Property already old. new => " + apartments.where(:property_id => child['id'].to_i).get(:new).to_s
+            end
         end
     end
 
