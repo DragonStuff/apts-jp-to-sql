@@ -66,7 +66,7 @@ end
 
 apartments.each{ |r| 
     if !processed.include? r[:property_id]
-        puts "Deleting orphan => " + r[:property_id]
+        puts "Deleting orphan => " + r[:property_id].to_s
         apartments.where(:property_id => r[:property_id]).delete
     end
 }
