@@ -2,8 +2,10 @@ name: CI
 
 on:
   push:
+    branches:
+      - master
   schedule:
-  - cron: "0 22,0-9 * * *"
+  - cron: "0 22-23,0-9 * * *"
 
 jobs:
   update-database:
