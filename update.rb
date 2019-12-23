@@ -71,7 +71,7 @@ apartments.each{ |r|
     end
 }
 
-puts processed.to_s
+puts "Processed properties => " + processed.to_s
 
 puts "reverse => " + ENV["REVERSE"].to_s
 
