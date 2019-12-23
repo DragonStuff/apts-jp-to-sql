@@ -19,9 +19,11 @@ response = openthis(api_url)
 data = JSON.parse(response)
 
 x = 0
+processed = []
 
 while data['page']['current_page'].to_i != data['page']['total_pages'].to_i + 1
     data['properties'].each do |child|
+        processed.push(child['id'].to_i)
         print "Looking at property with ID " + child['id'].to_s + "... "
         if apartments.where(:property_id => child['id'].to_i).get(:property_id) != child['id'].to_i
                 x = x + 1
@@ -62,7 +64,16 @@ while data['page']['current_page'].to_i != data['page']['total_pages'].to_i + 1
     data = JSON.parse(response)
 end
 
-puts "reverse => " + ENV["REVERSE"]
+apartments.each{ |r| 
+    if !processed.include? r[:property_id]
+        puts "Deleting orphan => " + r[:property_id]
+        apartments.where(:property_id => r[:property_id]).delete
+    end
+}
+
+puts processed.to_s
+
+puts "reverse => " + ENV["REVERSE"].to_s
 
 if ENV["REVERSE"] == "true"
     print "REVERSING... "
