@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bigdecimal (2.0.0)
+    sequel (5.28.0)
+    sqlite3 (1.4.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bigdecimal
+  sequel
+  sqlite3
+
+BUNDLED WITH
+   1.17.2
