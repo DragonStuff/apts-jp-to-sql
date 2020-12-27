@@ -9,7 +9,7 @@ def openthis(url)
     Net::HTTP.get(URI.parse(url))
 end
 
-apartments = DB[:apartments].where(rent: 0..130000, new: true)
+apartments = DB[:apartments].where(new: true)
 
 if apartments.first
     file = File.open("found_properties.txt", "w")
