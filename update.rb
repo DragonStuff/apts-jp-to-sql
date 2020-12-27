@@ -13,7 +13,7 @@ def openthis(url)
 end
 
 # Get data from API and parse into object
-api_url = "https://apts.jp/api/properties.json?rent_range[max]=150000&bedroom_range[min]=0&rent_range[min]="
+api_url = "https://apts.jp/api/properties.json?rent_range[max]=170000&bedroom_range[min]=0&rent_range[min]="
 puts api_url
 response = openthis(api_url)
 data = JSON.parse(response)
